@@ -11,6 +11,9 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
+    <Head>
+        <script src="/cb3-finder.b7d346c3.js" defer></script> {/* 引用 public 目录下的 JS 文件 */}
+      </Head>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
