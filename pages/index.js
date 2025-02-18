@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Script from 'next/script';
 import { getPosts } from '../utils/mdx-utils';
 ;
 import Footer from '../components/Footer';
