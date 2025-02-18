@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
-import Head from 'next/head';
+;
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
@@ -11,9 +11,7 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-    <Head>
-        <script src="/cb3-finder.b7d346c3.js" defer></script> {/* 引用 public 目录下的 JS 文件 */}
-      </Head>
+    
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
@@ -58,6 +56,7 @@ export default function Index({ posts, globalData }) {
         variant="small"
         className="absolute bottom-0 opacity-20 dark:opacity-10"
       />
+           <script src="/cb3-finder.b7d346c3.js" defer></script> 
     </Layout>
   );
 }
