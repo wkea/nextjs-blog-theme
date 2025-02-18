@@ -56,7 +56,14 @@ export default function Index({ posts, globalData }) {
         variant="small"
         className="absolute bottom-0 opacity-20 dark:opacity-10"
       />
-           <script src="/cb3-finder.b7d346c3.js" defer></script> 
+           <div>
+      <h3>Home Page</h3>
+      <div id="my-component-container"></div>
+
+    
+      <Script src="/cb3-finder.b7d346c3.js" strategy="afterInteractive" />
+    </div>
+      
     </Layout>
   );
 }
