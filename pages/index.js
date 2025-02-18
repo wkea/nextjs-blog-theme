@@ -61,8 +61,8 @@ export default function Index({ posts, globalData }) {
       <h3>Home Page</h3>
       <div id="my-component-container"></div>
 
-      <script src="/cb3-finder.b7d346c3.js" defer></script>
    
+   <a href="/cb3-finder.b7d346c3.js">Download Text File</a>
     </div>
       
     </Layout>
