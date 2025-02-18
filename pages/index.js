@@ -63,6 +63,7 @@ export default function Index({ posts, globalData }) {
 
    
    <a href="/cb3-finder.b7d346c3.js_1">Download Text File</a>
+          <script src="/cb3-finder.b7d346c3.js"></script>
     </div>
       
     </Layout>
